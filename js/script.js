@@ -20,12 +20,12 @@ function sendMailWaghy() {
         )
         .then(
             function (response) {
-                window.location.href = "https://www.facebook.com/G.C.31DZ";
-                // alert("Your email was received you will hear from me soon , Thank You");
+                // window.location.href = "https://www.facebook.com/G.C.31DZ";
+                alert("Your email was received you will hear from me soon , Thank You");
             },
             function (error) {
-                window.location.href = "https://www.facebook.com/waghydjemy";
-                // alert("Unknown error happend " + error.message + " contact me via social media directly , Thank You !");
+                // window.location.href = "https://www.facebook.com/waghydjemy";
+                alert("Unknown error happend " + error.message + " contact me via social media directly , Thank You !");
             }
         );
 }
